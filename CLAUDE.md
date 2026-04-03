@@ -43,3 +43,14 @@ ANTHROPIC_MODEL     # Optional — defaults to claude-sonnet-4-20250514
 WORKSPACE_DIR       # Optional — defaults to ./sales-workflow
 ```
 Copy `.env.example` to `.env.local` and fill in your key.
+
+## Operator skills available
+
+This project lives inside the operator workspace. The following skills are available:
+
+| Skill | Purpose |
+|-------|---------|
+| `/capture` | Quick-capture ideas to the inbox |
+| `/communication-review` | Review outputs against communication quality standards |
+| `/strategic-review` | Governance gate for ideas or scope changes |
+| `/session-governor` | Start/close sessions with focus framing |
