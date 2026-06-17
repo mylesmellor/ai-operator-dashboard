@@ -39,7 +39,7 @@ npm run lint       # ESLint + TypeScript check
 ## Environment variables
 ```
 ANTHROPIC_API_KEY   # Required — your Anthropic API key
-ANTHROPIC_MODEL     # Optional — defaults to claude-sonnet-4-20250514
+ANTHROPIC_MODEL     # Optional — defaults to claude-sonnet-4-6
 WORKSPACE_DIR       # Optional — defaults to ./sales-workflow
 ```
 Copy `.env.example` to `.env.local` and fill in your key.

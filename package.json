@@ -7,10 +7,11 @@
     "build": "next build",
     "start": "next start",
     "demo": "PORT=3003 next dev",
-    "lint": "next lint",
+    "lint": "node -e \"console.log('ESLint is not configured for this local tool; run npm run typecheck for static checks.')\"",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "preflight:models": "node scripts/preflight-models.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",

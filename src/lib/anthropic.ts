@@ -15,7 +15,7 @@ function getClient(): Anthropic {
 
 export async function callAnthropic(systemPrompt: string, userMessage: string): Promise<string> {
   const c = getClient();
-  const model = process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-20250514';
+  const model = process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-6';
 
   const response = await c.messages.create({
     model,

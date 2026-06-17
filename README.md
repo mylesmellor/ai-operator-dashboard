@@ -56,7 +56,7 @@ That's it — you should see the lead intake form ready to go.
 | Variable | Required | Default | Description |
 |---|---|---|---|
 | `ANTHROPIC_API_KEY` | Yes | — | Your Anthropic API key |
-| `ANTHROPIC_MODEL` | No | `claude-sonnet-4-20250514` | Model to use for AI steps |
+| `ANTHROPIC_MODEL` | No | `claude-sonnet-4-6` | Model to use for AI steps |
 | `WORKSPACE_DIR` | No | `./sales-workflow` | Where run artefacts are stored |
 
 ## How It Works
