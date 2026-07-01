@@ -11,7 +11,8 @@ npm run build      # Production build
 npm start          # Run production build
 npm test           # Run vitest unit tests (24 tests)
 npm run test:watch # Watch mode
-npm run lint       # ESLint + TypeScript check
+npm run typecheck  # TypeScript static check (tsc --noEmit)
+npm run lint       # Not configured for this local tool — prints a note; use typecheck
 ```
 
 ## Key files
